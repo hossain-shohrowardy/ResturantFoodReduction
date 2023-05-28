@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="10dp"
+        app:cardUseCompatPadding="true"
+        style="@style/CardView.Light">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingTop="11dp"
+            android:paddingRight="11dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/img_customer"
+                android:layout_width="180dp"
+                android:layout_height="100dp"
+                android:src="@drawable/food_default"
+                android:layout_centerHorizontal="true"
+                app:civ_border_width="2dp"
+                app:civ_border_color="#FF000000"
+                />
+
+
+
+            <TextView
+                android:id="@+id/name_customer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/img_customer"
+                android:text="Name : Chy Hossain Shahid Shohrowardy"
+                android:textColor="@color/quantum_orange700"
+                android:textSize="18sp" />
+
+
+            <TextView
+                android:id="@+id/email_customer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/name_customer"
+
+                android:text="Email : hossain.shohrowardy@gamil.com "
+                android:textColor="@color/quantum_orange700"
+                android:textSize="18dp" />
+            <TextView
+                android:id="@+id/phone_customer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/email_customer"
+                android:text="Phone NO :01879473893 "
+                android:textColor="@color/quantum_orange700"
+                android:textSize="18dp" />
+            <Button
+                android:id="@+id/approve_customer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/phone_customer"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/log_button"
+                android:text="Approve">
+
+            </Button>
+
+
+
+
+
+
+
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

@@ -1,0 +1,103 @@
+package com.example.resturantfoodreduction.view;
+
+import android.net.Uri;
+
+public class CustomerRegistrationModel {
+   private String userId;
+   private String name;
+   private String email;
+   private String imguri;
+   private String password;
+   private Integer phoneNumber;
+   private Double longitude;
+   private Double latitude;
+   private String status;
+
+   public CustomerRegistrationModel() {
+
+   }
+
+   public CustomerRegistrationModel(String userId, String name, String email, String imguri, String password, Integer phoneNumber, Double longitude, Double latitude, String status) {
+      this.userId = userId;
+      this.name = name;
+      this.email = email;
+      this.imguri = imguri;
+      this.password = password;
+      this.phoneNumber = phoneNumber;
+      this.longitude = longitude;
+      this.latitude = latitude;
+      this.status = status;
+   }
+
+   public String getUserId() {
+      return userId;
+   }
+
+   public void setUserId(String userId) {
+      this.userId = userId;
+   }
+
+   public String getName() {
+      return name;
+   }
+
+   public void setName(String name) {
+      this.name = name;
+   }
+
+   public String getEmail() {
+      return email;
+   }
+
+   public void setEmail(String email) {
+      this.email = email;
+   }
+
+   public String getImguri() {
+      return imguri;
+   }
+
+   public void setImguri(String imguri) {
+      this.imguri = imguri;
+   }
+
+   public String getPassword() {
+      return password;
+   }
+
+   public void setPassword(String password) {
+      this.password = password;
+   }
+
+   public Integer getPhoneNumber() {
+      return phoneNumber;
+   }
+
+   public void setPhoneNumber(Integer phoneNumber) {
+      this.phoneNumber = phoneNumber;
+   }
+
+   public Double getLongitude() {
+      return longitude;
+   }
+
+   public void setLongitude(Double longitude) {
+      this.longitude = longitude;
+   }
+
+   public Double getLatitude() {
+      return latitude;
+   }
+
+   public void setLatitude(Double latitude) {
+      this.latitude = latitude;
+   }
+
+   public String getStatus() {
+      return status;
+   }
+
+   public void setStatus(String status) {
+      this.status = status;
+   }
+}

@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".view.ResturantViewProfileFregment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="30dp">
+            <TextView
+                android:id="@+id/resturant_title_view_profile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_centerHorizontal="true"
+                android:text="View Resaurant Info"
+                android:textSize="25dp"
+                android:textColor="@color/quantum_lime700">
+            </TextView>
+
+            <ImageView
+                android:id="@+id/view_resturant_image"
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_below="@+id/resturant_title_view_profile"
+                android:src="@drawable/resturant_image"></ImageView>
+          <TextView
+              android:id="@+id/res_name_title"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_below="@id/view_resturant_image"
+              android:layout_alignTop="@+id/res_name"
+
+              android:text="Name :"
+              android:textSize="25sp"
+              android:textColor="@color/black">
+
+          </TextView>
+
+            <TextView
+                android:id="@+id/res_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/view_resturant_image"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@+id/res_name_title"
+                android:text="Chy Hossain Shahid "
+                android:textSize="25sp">
+
+            </TextView>
+            <TextView
+                android:id="@+id/res_email_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/res_name_title"
+                android:layout_alignTop="@+id/res_email"
+                android:text="Email :"
+                android:textSize="25sp"
+                android:textColor="@color/black">
+            </TextView>
+
+            <TextView
+                android:id="@+id/res_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/res_name"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@+id/res_email_title"
+                android:text="s@gmail.com"
+                android:textSize="25sp">
+
+            </TextView>
+            <TextView
+                android:id="@+id/res_phone_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/res_email_title"
+                android:layout_alignTop="@+id/res_phone"
+                android:text="Phone :"
+                android:textSize="25sp"
+                android:textColor="@color/black">
+            </TextView>
+
+            <TextView
+                android:id="@+id/res_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/res_email"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@+id/res_phone_title"
+                android:text="01879473893"
+                android:textSize="25sp">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/res_location_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/res_phone_title"
+                android:layout_alignTop="@+id/res_location"
+                android:text="Validity Date :"
+                android:textColor="@color/black"
+                android:textSize="25sp">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/res_location"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/res_phone"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@+id/res_location_title"
+                android:text="2022-01-01"
+                android:textSize="25sp">
+
+            </TextView>
+            <TextView
+                android:id="@+id/food_package_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/res_location_title"
+                android:layout_alignTop="@+id/res_package"
+                android:text="Food Package :"
+                android:textColor="@color/black"
+                android:textSize="25sp">
+
+            </TextView>
+            <TextView
+                android:id="@+id/res_package"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/res_location"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@+id/food_package_title"
+                android:text="200 Foods"
+                android:textSize="25sp">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/validy_extend_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/res_package"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="16dp"
+                android:text="do you want to extend restaurant validy or want more token?"
+                android:textColor="@color/design_default_color_primary_dark">
+
+            </TextView>
+            <Button
+                android:id="@+id/validity_extend"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/validy_extend_text"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:text="extend"
+                android:background="@drawable/log_button">
+
+            </Button>
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</FrameLayout>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        style="@style/CardView.Light"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="10dp"
+        app:cardUseCompatPadding="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingTop="11dp"
+            android:paddingRight="11dp">
+
+            <ImageView
+                android:id="@+id/res_extend_img"
+                android:layout_width="match_parent"
+                android:layout_height="131dp"
+                android:paddingTop="10dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/food_default" />
+
+
+            <TextView
+                android:id="@+id/res_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/res_extend_img"
+                android:layout_marginTop="12dp"
+                android:text="Name : Chy Hossain Shahid Shohrowardy"
+                android:textColor="@color/quantum_orange700"
+                android:textSize="18sp" />
+
+
+            <TextView
+                android:id="@+id/res_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/res_name"
+
+                android:text="Email : hossain.shohrowardy@gamil.com "
+                android:textColor="@color/quantum_orange700"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/res_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/res_email"
+                android:text="Phone NO :01879473893 "
+                android:textColor="@color/quantum_orange700"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/res_extend"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/res_phone"
+                android:text="Validity : 2 year "
+                android:textColor="@color/quantum_orange700"
+                android:textSize="18dp" />
+            <TextView
+                android:id="@+id/res_extend_food"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/res_extend"
+                android:text="Token : 200 foods "
+                android:textColor="@color/quantum_orange700"
+                android:textSize="18dp" />
+            <TextView
+                android:id="@+id/res_extend_payment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/res_extend_food"
+                android:text="Payment : 1000 TK "
+                android:textColor="@color/quantum_orange700"
+                android:textSize="18dp" />
+
+
+            <Button
+                android:id="@+id/res_extend_approve"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/res_extend_payment"
+                android:layout_alignParentEnd="true"
+                android:layout_margin="5dp"
+                android:background="@drawable/log_button"
+                android:text="Extend">
+
+            </Button>
+
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

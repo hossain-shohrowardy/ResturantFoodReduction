@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.CustomerViewProfileFregment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="30dp">
+            <TextView
+                android:id="@+id/customer_view_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_centerHorizontal="true"
+                android:text="View Customer Info"
+                android:textSize="25dp"
+                android:textColor="@color/quantum_lime700">
+            </TextView>
+
+            <ImageView
+                android:id="@+id/view_customer_image"
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/customer_view_title"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/resturant_image"></ImageView>
+            <TextView
+                android:id="@+id/cus_name_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/view_customer_image"
+                android:layout_alignTop="@+id/cus_name"
+
+                android:text="Name :"
+                android:textSize="25sp"
+                android:textColor="@color/black">
+
+            </TextView>
+            <TextView
+                android:id="@+id/cus_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/view_customer_image"
+                android:layout_toRightOf="@+id/cus_name_title"
+                android:text="Chy Hossain Shahid "
+                android:layout_marginLeft="5dp"
+                android:textSize="25sp">
+
+            </TextView>
+            <TextView
+                android:id="@+id/cus_email_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cus_name_title"
+                android:layout_alignTop="@+id/cus_email"
+                android:text="Email :"
+                android:textSize="25sp"
+                android:textColor="@color/black">
+            </TextView>
+            <TextView
+                android:id="@+id/cus_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/cus_name"
+                android:layout_toRightOf="@+id/cus_email_title"
+                android:layout_marginLeft="5dp"
+                android:text="s@gmail.com"
+                android:textSize="25sp">
+
+            </TextView>
+            <TextView
+                android:id="@+id/cus_phone_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cus_email_title"
+                android:layout_alignTop="@+id/cus_phone"
+                android:text="Phone :"
+                android:textSize="25sp"
+                android:textColor="@color/black">
+            </TextView>
+            <TextView
+                android:id="@+id/cus_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/cus_email"
+                android:layout_toRightOf="@+id/cus_phone_title"
+                android:layout_marginLeft="5dp"
+                android:text="01879473893"
+                android:textSize="25sp">
+
+            </TextView>
+
+
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+</FrameLayout>

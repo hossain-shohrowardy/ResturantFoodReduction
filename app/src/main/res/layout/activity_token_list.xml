@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    tools:context=".view.TokenList">
+    <TextView
+        android:id="@+id/TokenValidity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_centerHorizontal="true"
+        android:text="Package Validity"
+        android:textSize="25dp"
+        android:textColor="@color/quantum_lime700">
+    </TextView>
+
+    <RadioGroup
+        android:id="@+id/rdGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TokenValidity"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/oneYear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:onClick="onRadioButtonClicked"
+            android:padding="2dp"
+            android:text="1 year and 200 foods package (1000 Tk)" />
+
+        <RadioButton
+            android:id="@+id/TwoYear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:onClick="onRadioButtonClicked"
+            android:padding="2dp"
+            android:text="2 years and 400 foods package (2000 Tk)" />
+
+        <RadioButton
+            android:id="@+id/ThreeYear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:onClick="onRadioButtonClicked"
+            android:padding="2dp"
+            android:text="3 years and 600 foods package (3000 TK)" />
+
+        <RadioButton
+            android:id="@+id/fourYear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:onClick="onRadioButtonClicked"
+            android:padding="2dp"
+            android:text="4 Years and 800 foods package 4000 TK" />
+    </RadioGroup>
+    <Button
+        android:id="@+id/tokenButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="145dp"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/rdGroup"
+        android:background="@drawable/log_button"
+        android:text="Next" />
+
+</RelativeLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.SetResturantLocation">
+    <TextView
+        android:id="@+id/resturant_location_choose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_centerHorizontal="true"
+        android:text="Set Resturant location"
+        android:textSize="30dp"
+        android:textColor="@color/design_default_color_primary_dark">
+    </TextView>
+    <ImageView
+        android:id="@+id/location_image"
+        android:layout_margin="20dp"
+        android:layout_width="160dp"
+        android:layout_height="80dp"
+        android:layout_below="@+id/resturant_location_choose"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/location_icon1">
+    </ImageView>
+
+    <Button
+        android:id="@+id/location_choose_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/location_image"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:background="@drawable/log_button"
+        android:text="Click Here"
+        android:onClick="fetchLocation"
+        app:backgroundTint="@color/purple_700" />
+
+</RelativeLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.ChooseRegistration">
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:layout_centerHorizontal="true"
+        android:text="Choose Registration"
+        android:textSize="30dp"
+        android:textColor="@color/quantum_lime700">
+
+    </TextView>
+    <Button
+        android:id="@+id/resturant_owner_signup_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/log_button"
+        android:text="Resturant Owner"
+        app:backgroundTint="@color/quantum_lime700">
+
+    </Button>
+    <Button
+        android:id="@+id/customer_signup_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_above="@+id/resturant_owner_signup_button"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/log_button"
+        android:text="Customer"
+        app:backgroundTint="@color/quantum_lime700">
+
+    </Button>
+
+</RelativeLayout>

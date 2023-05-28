@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "459709426082",
+    "firebase_url": "https://food-waste-reduction-7c360-default-rtdb.firebaseio.com",
+    "project_id": "food-waste-reduction-7c360",
+    "storage_bucket": "food-waste-reduction-7c360.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:459709426082:android:83ffb45b13dcdcaa936afb",
+        "android_client_info": {
+          "package_name": "com.example.resturantfoodreduction"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "459709426082-7q184ci4qnjm5vg1n1kelhefnqrmi61u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXkJ8DDDErZtEuB6kd-D8JKvKByfid3nA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "459709426082-7q184ci4qnjm5vg1n1kelhefnqrmi61u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

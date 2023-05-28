@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".view.ResturantOwnerFoodAddFregment">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <!-- TODO: Update blank fragment layout -->
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+
+       <ImageView
+           android:id="@+id/resturant_food"
+           android:layout_width="300dp"
+           android:layout_height="200dp"
+           android:layout_centerHorizontal="true"
+           android:layout_marginStart="10dp"
+           android:layout_marginTop="10dp"
+           android:layout_marginEnd="10dp"
+           android:layout_marginBottom="10dp"
+           android:src="@drawable/resturant_image">
+
+
+       </ImageView>
+       <com.google.android.material.textfield.TextInputLayout
+           android:id="@+id/resturent_food_title_layout"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_below="@+id/resturant_food"
+           layout_marginTop="10dp"
+           android:paddingLeft="5dp"
+           android:paddingRight="5dp"
+           app:errorEnabled="true"
+           style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+           <com.google.android.material.textfield.TextInputEditText
+               android:id="@+id/food_title"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:inputType="text"
+               android:hint=" Title">
+           </com.google.android.material.textfield.TextInputEditText>
+       </com.google.android.material.textfield.TextInputLayout>
+       <com.google.android.material.textfield.TextInputLayout
+           android:id="@+id/resturent_food_description_layout"
+           android:layout_width="match_parent"
+           android:layout_height="140dp"
+           android:layout_below="@+id/resturent_food_title_layout"
+           layout_marginTop="10dp"
+           android:paddingLeft="5dp"
+           android:paddingRight="5dp"
+           app:errorEnabled="true"
+           style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+           <com.google.android.material.textfield.TextInputEditText
+               android:id="@+id/food_description"
+               android:layout_width="match_parent"
+               android:layout_height="120dp"
+               android:inputType="text"
+               android:hint="Description">
+           </com.google.android.material.textfield.TextInputEditText>
+       </com.google.android.material.textfield.TextInputLayout>
+       <com.google.android.material.textfield.TextInputLayout
+           android:id="@+id/resturent_food_previous_price_layout"
+           android:layout_width="150dp"
+           android:layout_height="wrap_content"
+           android:layout_below="@+id/resturent_food_description_layout"
+           layout_marginTop="10dp"
+           android:paddingLeft="5dp"
+           android:paddingRight="5dp"
+           app:errorEnabled="true"
+           style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+           <com.google.android.material.textfield.TextInputEditText
+               android:id="@+id/food_previous_price"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:inputType="number"
+               android:hint="Previous Price">
+           </com.google.android.material.textfield.TextInputEditText>
+       </com.google.android.material.textfield.TextInputLayout>
+       <com.google.android.material.textfield.TextInputLayout
+           android:id="@+id/resturent_food_latest_price_layout"
+           android:layout_width="150dp"
+           android:layout_height="wrap_content"
+           android:layout_below="@+id/resturent_food_description_layout"
+           android:layout_alignRight="@id/resturent_food_description_layout"
+           layout_marginTop="10dp"
+           android:paddingLeft="5dp"
+           android:paddingRight="5dp"
+           app:errorEnabled="true"
+           style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+           <com.google.android.material.textfield.TextInputEditText
+               android:id="@+id/food_latest_price"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:inputType="number"
+               android:hint="Latest Price">
+           </com.google.android.material.textfield.TextInputEditText>
+       </com.google.android.material.textfield.TextInputLayout>
+       <com.google.android.material.textfield.TextInputLayout
+           android:id="@+id/resturent_food_discount_layout"
+           android:layout_width="150dp"
+           android:layout_height="wrap_content"
+           android:layout_below="@+id/resturent_food_previous_price_layout"
+           layout_marginTop="10dp"
+           android:paddingLeft="5dp"
+           android:paddingRight="5dp"
+           app:errorEnabled="true"
+           style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+           <com.google.android.material.textfield.TextInputEditText
+               android:id="@+id/food_discount"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:inputType="number"
+               android:hint="Discount">
+           </com.google.android.material.textfield.TextInputEditText>
+       </com.google.android.material.textfield.TextInputLayout>
+       <com.google.android.material.textfield.TextInputLayout
+           android:id="@+id/resturent_food_Quantity_layout"
+           android:layout_width="150dp"
+           android:layout_height="wrap_content"
+           android:layout_below="@+id/resturent_food_latest_price_layout"
+           android:layout_alignRight="@id/resturent_food_latest_price_layout"
+           android:layout_alignTop="@id/resturent_food_discount_layout"
+           layout_marginTop="10dp"
+           android:paddingLeft="5dp"
+           android:paddingRight="5dp"
+           app:errorEnabled="true"
+           style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+           <com.google.android.material.textfield.TextInputEditText
+               android:id="@+id/food_Quantity"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:inputType="number"
+               android:hint="Quentity">
+           </com.google.android.material.textfield.TextInputEditText>
+       </com.google.android.material.textfield.TextInputLayout>
+
+       <Button
+           android:id="@+id/food_add_button"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_below="@+id/resturent_food_discount_layout"
+           android:layout_centerHorizontal="true"
+           android:layout_marginTop="8dp"
+           android:layout_marginRight="10dp"
+           android:background="@drawable/log_button"
+           android:text="Add"
+           app:backgroundTint="@color/purple_700">
+
+
+       </Button>
+
+
+   </RelativeLayout>
+    </ScrollView>
+
+</FrameLayout>

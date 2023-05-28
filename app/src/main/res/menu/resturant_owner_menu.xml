@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+ <item
+    android:id="@+id/resturent_home"
+    android:title="Home"
+    android:icon="@drawable/resturant_home"/>
+    <item
+        android:id="@+id/resturent_add_food"
+        android:title="Add Food"
+        android:icon="@drawable/add_food"/>
+
+    <item
+        android:id="@+id/resturent_view_profile"
+        android:title="Profile"
+        android:icon="@drawable/profile_view_new"/>
+    <item
+        android:id="@+id/resturent_edit_profile"
+        android:title="Edit Profile"
+        android:icon="@drawable/edit_profile_all"/>
+    <item
+        android:id="@+id/resturent_logout"
+        android:title="Signout"
+        android:icon="@drawable/sign_out"/>
+</menu>

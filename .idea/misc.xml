@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/OurFinalProject/ResturantFoodReduction/app/src/main/res/layout/activity_admin_panel.xml" value="0.14" />
+        <entry key="..\:/OurFinalProject/ResturantFoodReduction/app/src/main/res/layout/activity_admin_view_restaurant.xml" value="0.21" />
+        <entry key="..\:/OurFinalProject/ResturantFoodReduction/app/src/main/res/layout/activity_choose_registration.xml" value="0.1" />
+        <entry key="..\:/OurFinalProject/ResturantFoodReduction/app/src/main/res/layout/activity_customer_panel.xml" value="0.25" />
+        <entry key="..\:/OurFinalProject/ResturantFoodReduction/app/src/main/res/layout/activity_customer_registration.xml" value="0.1082427536231884" />
+        <entry key="..\:/OurFinalProject/ResturantFoodReduction/app/src/main/res/layout/activity_log_in.xml" value="0.15" />
+        <entry key="..\:/OurFinalProject/ResturantFoodReduction/app/src/main/res/layout/activity_pay.xml" value="0.22" />
+        <entry key="..\:/OurFinalProject/ResturantFoodReduction/app/src/main/res/layout/activity_payment.xml" value="0.1" />
+        <entry key="..\:/OurFinalProject/ResturantFoodReduction/app/src/main/res/layout/activity_resturant_owner.xml" value="0.11" />
+        <entry key="..\:/OurFinalProject/ResturantFoodReduction/app/src/main/res/layout/activity_resturant_owner_panel.xml" value="0.1" />
+        <entry key="..\:/OurFinalProject/ResturantFoodReduction/app/src/main/res/layout/activity_resturant_owner_view_customer_oder_by_food.xml" value="0.17" />
+        <entry key="..\:/OurFinalProject/ResturantFoodReduction/app/src/main/res/layout/activity_resturant_view_food.xml" value="0.15" />
+        <entry key="..\:/OurFinalProject/ResturantFoodReduction/app/src/main/res/layout/activity_resturent_food_edit.xml" value="0.1082427536231884" />
+        <entry key="..\:/OurFinalProject/ResturantFoodReduction/app/src/main/res/layout/activity_token_list.xml" value="0.22" />
+        <entry key="..\:/OurFinalProject/ResturantFoodReduction/app/src/main/res/layout/activity_view_resturant_for_customer.xml" value="0.1" />
+        <entry key="..\:/OurFinalProject/ResturantFoodReduction/app/src/main/res/layout/activity_view_single_food.xml" value="0.13722826086956522" />
+        <entry key="..\:/OurFinalProject/ResturantFoodReduction/app/src/main/res/layout/customer_food_layout.xml" value="0.33" />
+        <entry key="..\:/OurFinalProject/ResturantFoodReduction/app/src/main/res/layout/fragment_admin_add_token.xml" value="0.20416666666666666" />
+        <entry key="..\:/OurFinalProject/ResturantFoodReduction/app/src/main/res/layout/fragment_admin_approve_user_list.xml" value="0.20416666666666666" />
+        <entry key="..\:/OurFinalProject/ResturantFoodReduction/app/src/main/res/layout/fragment_admin_extend_validity_approve_list.xml" value="0.1671195652173913" />
+        <entry key="..\:/OurFinalProject/ResturantFoodReduction/app/src/main/res/layout/fragment_admin_home_fregment.xml" value="0.17" />
+        <entry key="..\:/OurFinalProject/ResturantFoodReduction/app/src/main/res/layout/fragment_admin_log_out.xml" value="0.15760869565217392" />
+        <entry key="..\:/OurFinalProject/ResturantFoodReduction/app/src/main/res/layout/fragment_admin_view_token.xml" value="0.20416666666666666" />
+        <entry key="..\:/OurFinalProject/ResturantFoodReduction/app/src/main/res/layout/fragment_customer_edit_profile_fregment.xml" value="0.1" />
+        <entry key="..\:/OurFinalProject/ResturantFoodReduction/app/src/main/res/layout/fragment_customer_home_fregment.xml" value="0.1" />
+        <entry key="..\:/OurFinalProject/ResturantFoodReduction/app/src/main/res/layout/fragment_customer_view_profile_fregment.xml" value="0.13677536231884058" />
+        <entry key="..\:/OurFinalProject/ResturantFoodReduction/app/src/main/res/layout/fragment_edit_resturant_owner_profile.xml" value="0.18" />
+        <entry key="..\:/OurFinalProject/ResturantFoodReduction/app/src/main/res/layout/fragment_resturant_owner_food_add_fregment.xml" value="0.1" />
+        <entry key="..\:/OurFinalProject/ResturantFoodReduction/app/src/main/res/layout/fragment_resturant_owner_home.xml" value="0.10778985507246377" />
+        <entry key="..\:/OurFinalProject/ResturantFoodReduction/app/src/main/res/layout/fragment_resturant_view_profile_fregment.xml" value="0.22" />
+        <entry key="..\:/OurFinalProject/ResturantFoodReduction/app/src/main/res/layout/resturant_food_layout.xml" value="0.22" />
+        <entry key="..\:/OurFinalProject/ResturantFoodReduction/app/src/main/res/layout/single_customer_info.xml" value="0.25" />
+        <entry key="..\:/OurFinalProject/ResturantFoodReduction/app/src/main/res/layout/single_res_extend_validity.xml" value="0.21" />
+        <entry key="..\:/OurFinalProject/ResturantFoodReduction/app/src/main/res/layout/single_restaurant_info.xml" value="0.11" />
+        <entry key="..\:/OurFinalProject/ResturantFoodReduction/app/src/main/res/menu/admin_menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/OurFinalProject/ResturantFoodReduction/app/src/main/res/menu/customer_menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/OurFinalProject/ResturantFoodReduction/app/src/main/res/menu/resturant_owner_menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/OurFinalProject/ResturantFoodReduction/app/src/main/res/menu/single_restaurant_extend_validity.xml" value="0.20416666666666666" />
+        <entry key="..\:/OurFinalProject/ResturantFoodReduction/app/src/main/res/xml/network_security_config.xml" value="0.1" />
+        <entry key="..\:/ResturantFoodReduction/app/src/main/res/drawable/customer_food_layout.xml" value="0.2125" />
+        <entry key="..\:/ResturantFoodReduction/app/src/main/res/drawable/log_button.xml" value="0.2125" />
+        <entry key="..\:/ResturantFoodReduction/app/src/main/res/layout/activity_choose_registration.xml" value="0.2078125" />
+        <entry key="..\:/ResturantFoodReduction/app/src/main/res/layout/activity_customer_panel.xml" value="0.22" />
+        <entry key="..\:/ResturantFoodReduction/app/src/main/res/layout/activity_customer_registration.xml" value="0.2078125" />
+        <entry key="..\:/ResturantFoodReduction/app/src/main/res/layout/activity_log_in.xml" value="0.1403985507246377" />
+        <entry key="..\:/ResturantFoodReduction/app/src/main/res/layout/activity_main.xml" value="0.2078125" />
+        <entry key="..\:/ResturantFoodReduction/app/src/main/res/layout/activity_maps.xml" value="0.2078125" />
+        <entry key="..\:/ResturantFoodReduction/app/src/main/res/layout/activity_resturant_owner.xml" value="0.25" />
+        <entry key="..\:/ResturantFoodReduction/app/src/main/res/layout/activity_resturant_owner_panel.xml" value="0.22" />
+        <entry key="..\:/ResturantFoodReduction/app/src/main/res/layout/activity_resturent_food_edit.xml" value="0.13" />
+        <entry key="..\:/ResturantFoodReduction/app/src/main/res/layout/activity_set_resturant_location.xml" value="0.2078125" />
+        <entry key="..\:/ResturantFoodReduction/app/src/main/res/layout/activity_view_single_food.xml" value="0.21" />
+        <entry key="..\:/ResturantFoodReduction/app/src/main/res/layout/customer_food_layout.xml" value="0.19635416666666666" />
+        <entry key="..\:/ResturantFoodReduction/app/src/main/res/layout/fragment_customer_edit_profile_fregment.xml" value="0.19635416666666666" />
+        <entry key="..\:/ResturantFoodReduction/app/src/main/res/layout/fragment_customer_home_fregment.xml" value="0.19635416666666666" />
+        <entry key="..\:/ResturantFoodReduction/app/src/main/res/layout/fragment_customer_view_profile_fregment.xml" value="0.19635416666666666" />
+        <entry key="..\:/ResturantFoodReduction/app/src/main/res/layout/fragment_edit_resturant_owner_profile.xml" value="0.19635416666666666" />
+        <entry key="..\:/ResturantFoodReduction/app/src/main/res/layout/fragment_resturant_log_out_fregment.xml" value="0.19635416666666666" />
+        <entry key="..\:/ResturantFoodReduction/app/src/main/res/layout/fragment_resturant_owner_food_add_fregment.xml" value="0.15" />
+        <entry key="..\:/ResturantFoodReduction/app/src/main/res/layout/fragment_resturant_owner_home.xml" value="0.19635416666666666" />
+        <entry key="..\:/ResturantFoodReduction/app/src/main/res/layout/fragment_resturant_view_profile_fregment.xml" value="0.19635416666666666" />
+        <entry key="..\:/ResturantFoodReduction/app/src/main/res/layout/fragment_resturant_view_profile_fregmet.xml" value="0.19635416666666666" />
+        <entry key="..\:/ResturantFoodReduction/app/src/main/res/layout/fragment_view_resturant_owner_profile.xml" value="0.19635416666666666" />
+        <entry key="..\:/ResturantFoodReduction/app/src/main/res/layout/resturant_food_layout.xml" value="0.13" />
+        <entry key="..\:/ResturantFoodReduction/app/src/main/res/layout/resturent_owner_frame_layout.xml" value="0.19635416666666666" />
+        <entry key="..\:/ResturantFoodReduction/app/src/main/res/menu/customer_menu.xml" value="0.19635416666666666" />
+        <entry key="..\:/ResturantFoodReduction/app/src/main/res/menu/resturant_owner_menu.xml" value="0.19635416666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
